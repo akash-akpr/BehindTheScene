@@ -3,9 +3,6 @@
   "name": "Behind the Scene",
   "version": "1.0",
   "description": "Web extension to find details about scenes in TV/Movies.",
-  "page_action": {
-
-  }
   "background": {
     "scripts": ["background.js"],
     "persistent": false
