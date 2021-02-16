@@ -3,7 +3,11 @@ chrome.runtime.onInstalled.addListener(function(){
     chrome.declarativeContent.onPageChanged.addRules([
       conditions: [
         new chrome.declarativeContent.PageStateMatcher({
-          pageUrl: {urlContains: 'netflix.com'},
+          pageUrl: {
+            hostEquals: 'www.netflix.com',
+            pathPrefix: '/watch/',
+            schemes: ['http', 'https']
+          },
         }),
       ],
       actions:[new chrome.declarativeContent.ShowPageAction()]
