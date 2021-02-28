@@ -15,7 +15,8 @@
   "permissions": [
     "tabs",
     "declarativeContent",
-    "https://*.netflix.com/watch*"
+    "https://*.netflix.com/watch*",
+    "storage"
   ],
   "page_action": {
     "default_icon" : "icon16.png",
