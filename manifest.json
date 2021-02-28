@@ -15,7 +15,7 @@
   "permissions": [
     "tabs",
     "declarativeContent",
-    "https://*.netflix.com*",
+    "https://netflix.com/*",
     "storage"
   ],
   "page_action": {
