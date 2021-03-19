@@ -17,3 +17,8 @@ chrome.runtime.onInstalled.addListener(function(details){
 
 
 });*/
+if ('service_worker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/background.js');
+  });
+}
