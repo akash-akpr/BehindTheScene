@@ -1,11 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Behind the Scene",
   "version": "1.0",
   "description": "Web extension to find details about scenes in TV/Movies.",
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "icons" : {
     "128": "icon128.png",
@@ -20,7 +19,7 @@
   "host_permissions": [
     "https://*.netflix.com/watch*"
   ],
-  "page_action": {
+  "action": {
     "default_icon" : "icon16.png",
     "default_popup" : "popup.html"
   }
