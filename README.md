@@ -1,2 +1,2 @@
 # behindTheScene
- Welcome to behindTheScene! This is an innovative, collaborative, imaginative, creative, and any-other-adjective-people-like-to-hear coding project!
+ Welcome to behindTheScene! This is a program to help show more information about netflix titles as viewers watch them.
